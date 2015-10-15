@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 650px;
+    background-color: red;
+    background: url(notebook.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstrow {
+    background-color: transparent;
+    padding-top: 150px;
+    color: white;
+}
+
+#bgimg {
+    background: url(bgforthdiv.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.contact-us-white{
+    color: white;
+}
+
+.awesome-team-bottom{
+    color:gray;
+    padding-top:10px;
+}
+
+@font-face {
+    font-family: 'Bello Script';
+    src: url('Bello-Pro_6555.ttf');
+}
+
+.dreams {
+    font-family: "Bello Script";
+    color: white;
+    padding-left: 60px;
+}
+
+.coreservices {
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.bgfff {
+    background-color: #fff;
+}
+
+.bgf7 {
+    background-color: #f7f7f7;
+}
+
+.otherexpbg {
+    background-color: #f7f7f7
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: gray;
+}
+
+#bs-example-navbar-collapse-1 {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+}
+
+.scrolled {
+    background-color: #35c2f8;
+    border-color: #35c2f8;
+    color: white;
+    border-top: #35c2f8;
+}
+
+a.li:hover {
+    color: white;
+}
+
+hr {
+    border: none;
+    background-color: #36b9eb;
+    color: #36b9eb;
+    height: 1px;
+    width: 150px;
+}
+
+.seconddivimg {
+    margin: auto;
+    padding-top: 10px;
+    display: block;
+}
+
+.caorusel {
+    clear: both;
+    width: 100%;
+}
+
+.item img {
+    width: 100%;
+}
+
+.form-control {
+    width: 74%;
+    margin-top: 30px;
+}
+
+#inputmessage {
+    height: 110px;
+}
+
+#first-border {
+    height: 100px;
+    border-right: 3px solid #f1f1f1;
+}
+
+#aboutfirstdiv {
+    margin-top: 50px;
+}
+
+.other-expertise-img {
+    padding-top: 15px;
+}
+
+.awesome-team-img {
+    margin-top: 50px;
+}
+
+.footer-img {
+    margin-top: 15px;
+    color: white;
+}
+
+.footer-button {
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #35c2f8;
+    color: white;
+}
+
+.expertise-button {
+    border-radius: 20px;
+    border: 1px solid #ceeefa;
+}
+
+.portfolio-img {
+    padding-top: 15px;
+}
+
+.pleftdivcontent {
+    width: 170px;
+    height: 170px;
+    background-color: #111111;
+    float: left;
+    color: white;
+}
+
+.formcontainer {
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+}
+
+.checkbox {
+    margin-left: 380px;
+    overflow: hidden;
+}
+
+.verticalline:after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 2px;
+    background-color: #f1f1f1;
+    height: 85px;
+}
+
+.aboutusimg {
+    padding: 0;
+}
+
+.contact-us {
+    background-color: #111;
+}
+
+.left-contact-us {
+    margin-top: 20px;
+    background-color: #111;
+}
+
+.footer {
+    background-color: #111;
+    margin-top: 20px;
+    border-top: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    width: 75%;
+    display: inline-block;
+}
+
+@media (max-width:1330px) {
+    .phone {
+        display: none;
+    }
+
+    .otherexpbg {
+        display: none;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:999px) {
+    #first-border {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    #bgimg {
+        background-image: none;
+    }
+
+    .expertise-big-img {
+        display: none;
+    }
+
+    #about {
+        margin: 0;
+    }
+
+    .expertise-button {
+        margin-left: 100px;
+    }
+
+    .footer-button {
+        margin-left: 30px;
+    }
+
+    .verticalline:after {
+        width: 0;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:767px) {
+    #first-border {
+        display: none;
+    }
+
+    .expertise-big-img {
+        display: none;
+    }
+
+    #bgimg {
+        background-image: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    #bgimg {
+        height: 550px;
+    }
+
+    #about {
+        margin: 0;
+    }
+
+    .footer-button {
+        margin-left: 30px;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        background-color: #35c2f8;
+    }
+
+    .footer-button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .verticalline:after {
+        width: 0;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:480px) {
+    #bgimg {
+        height: 800px;
+    }
+
+    .footer-button {
+        margin-left: 30px;
+    }
+
+    .dreams {
+        padding: 0;
+    }
+
+    .footer-button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .verticalline:after {
+        width: 0;
+    }
+
+}
