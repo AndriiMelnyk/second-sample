@@ -8,6 +8,7 @@ $(document).ready(function(){
 		$('.navbar-default').removeClass("scrolled");
 	}
 
+
 	$(this).scroll(function(){
 		if($(this).scrollTop() > 0){
 			$('.navbar-default').addClass("scrolled");
@@ -16,3 +17,15 @@ $(document).ready(function(){
 		}
 	});
 });
+
+
+$(window).scroll(function() {
+    $('.mov').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+600) {
+      	$(this).addClass("flipInX");
+      }
+  });
+});
+
